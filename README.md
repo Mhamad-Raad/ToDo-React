@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ProjectName
+# Todo - React
 
 ## Built With
-
+- React.js
+- HTML/CSS
 ## Live Demo
 
 Will be update when availabl! [Live Demo]()
