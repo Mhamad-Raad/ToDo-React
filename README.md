@@ -7,7 +7,7 @@
 - HTML/CSS
 ## Live Demo
 
-Will be update when availabl! [Live Demo]()
+Will be update when availabl! [Live Demo](https://mhamad-raad.github.io/ToDo-React/)
 
 # Getting Started with React App
 
