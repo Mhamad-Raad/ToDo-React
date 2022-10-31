@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign, no-use-before-define */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './Header';
@@ -12,16 +12,6 @@ import Navbar from './Navbar';
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState(getInitialTodos());
-
-  // useEffect(() => {
-  //   // getting stored items
-  //   const temp = localStorage.getItem("todos")
-  //   const loadedTodos = JSON.parse(temp)
-
-  //   if (loadedTodos) {
-  //     setTodos(loadedTodos)
-  //   }
-  // }, [])
 
   useEffect(() => {
     // storing todos items
@@ -74,7 +64,7 @@ const TodoContainer = () => {
   };
 
   return (
-    <>
+    <Fragment>
       <Navbar />
       <Switch>
         <Route exact path="/">
@@ -98,7 +88,7 @@ const TodoContainer = () => {
           <NotMatch />
         </Route>
       </Switch>
-    </>
+    </Fragment>
   );
 };
 

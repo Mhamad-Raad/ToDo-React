@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import { BrowserRouter as Router } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
 
 // component
 import TodoContainer from './functionBased/components/TodoContainer';
@@ -9,11 +11,10 @@ import TodoContainer from './functionBased/components/TodoContainer';
 // stylesheet
 import './functionBased/App.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+  <Router>
+    <Route exact path="/">
       <TodoContainer />
-    </Router>
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
+    </Route>
+  </Router>;
+
+ReactDOM.render(<TodoContainer />, document.getElementById('root'));
