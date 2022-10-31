@@ -9,6 +9,11 @@
   margin-right: 15px;
 }
 
+.checkbox:checked {
+  /* stylelint-disable-next-line csstree/validator */
+  accent-color: #4c00a2;
+}
+
 .item button {
   font-size: 13px;
   background: #f1f3f4;

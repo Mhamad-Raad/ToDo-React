@@ -37,12 +37,12 @@ const Navbar = () => {
           navbarOpen
             ? (
               <MdClose
-                style={{ color: '#fff', width: '40px', height: '40px' }}
+                style={{ color: '#b474fc', width: '40px', height: '40px' }}
               />
             )
             : (
               <FiMenu
-                style={{ color: '#7b7b7b', width: '40px', height: '40px' }}
+                style={{ color: 'purple', width: '40px', height: '40px' }}
               />
             )
         }

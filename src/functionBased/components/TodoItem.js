@@ -48,7 +48,7 @@ const TodoItem = (props) => {
           onChange={() => props.handleChangeProps(id)}
         />
         <button onClick={() => props.deleteTodoProps(id)}>
-          <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
+          <FaTrash style={{ color: '#4c00a2', fontSize: '16px' }} />
         </button>
         <span style={completed ? completedStyle : null}>{title}</span>
       </div>
