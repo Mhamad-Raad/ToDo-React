@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Mhamad-Raad/ToDo-React/static/css/main.1cac8c62.css",
-    "main.js": "/Mhamad-Raad/ToDo-React/static/js/main.e591cdd7.js",
+    "main.js": "/Mhamad-Raad/ToDo-React/static/js/main.82460221.js",
     "index.html": "/Mhamad-Raad/ToDo-React/index.html",
     "main.1cac8c62.css.map": "/Mhamad-Raad/ToDo-React/static/css/main.1cac8c62.css.map",
-    "main.e591cdd7.js.map": "/Mhamad-Raad/ToDo-React/static/js/main.e591cdd7.js.map"
+    "main.82460221.js.map": "/Mhamad-Raad/ToDo-React/static/js/main.82460221.js.map"
   },
   "entrypoints": [
     "static/css/main.1cac8c62.css",
-    "static/js/main.e591cdd7.js"
+    "static/js/main.82460221.js"
   ]
 }
