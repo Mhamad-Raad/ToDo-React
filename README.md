@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Todo - React
+
+## Built With
+- React.js
+- HTML/CSS
+## Live Demo
+
+Will be update when availabl! [Live Demo](https://mhamad-raad.github.io/ToDo-React/)
+
+# Getting Started with React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +79,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+👤 **Author1: Rebaz Farid**
+
+- GitHub: [@Mhamad-Raad](https://github.com/mhamad-raad)
+- Twitter: [@rebaz415](https://twitter.com/mhamad-raad)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+List of Aknnowledgments goes here
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
